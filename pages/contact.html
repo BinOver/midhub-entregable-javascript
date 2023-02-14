@@ -30,7 +30,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item .nav-btn">
-                                <a class="nav-link active nav-btn" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active nav-btn" aria-current="page" href="../index.html">Home</a>
                             </li>
                             <li class="nav-item .nav-btn">
                                 <a class="nav-link active nav-btn" aria-current="page" href="./upcoming_events.html">Upcoming Events</a>
@@ -44,10 +44,6 @@
                             <li class="nav-item .nav-btn">
                                 <a class="nav-link active nav-btn" aria-current="page" href="./stats.html">stats</a>
                             </li>
-                            <li class="nav-item .nav-btn">
-                                <a class="nav-link active nav-btn" aria-current="page"href="./event.html">event</a>
-                            </li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -57,28 +53,28 @@
 
     <main>
         <div class="hero bg-light row text-center align-content-center">
-            <div class="col-1 hero-text-arrow">
-                <p><a href="./past_events.html"><</a></p>
+            <div class="col-1 hero-text-arrow p-0">
+                <p><a href="./past_events.html">&lt;</a></p>
             </div>
             <div class="col-10 text-center">
                 <p>Contact</p>
             </div>
-            <div class="col-1 hero-text-arrow">
-                <p><a href="./stats.html">></a></p>
+            <div class="col-1 hero-text-arrow p-0">
+                <p><a href="./stats.html">&gt;</a></p>
             </div>
         </div>
     
         <form action="./show-data.html" method="GET">
         
             <fieldset id="refistration_form-fullname" class="contact-form">
-                    <label for="registration-firstName">Name: </label>
-                    <input type="text" name="FirstName" placeholder="Name here" id="registration-firstName">
+                    <label for="name">Name: </label>
+                    <input type="text" name="FirstName" placeholder="Name here" id="name">
                     
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="E-Mail here" required>
+                    <input type="email" name="email" placeholder="E-Mail here" id="email">
                     
-                    <label for="mensaje">Mensagge:</label>
-                    <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
+                    <label for="mensagge">Mensagge:</label>
+                    <textarea name="mensaje" id="mensagge" cols="30" rows="5"></textarea>
 
                     <input type="submit" value="submit" class="btn_submit">
             </fieldset>
