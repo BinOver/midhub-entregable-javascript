@@ -10,44 +10,142 @@
     <title>AIEvents</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img class="nav-logo" src="../assets/images/logo.png" alt="Logo IAEvents"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end m" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link nav-btn" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-btn" href="./upcoming_events.html">Upcoming Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-btn" href="./past_events.html">Past Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-btn" href="./contact.html">contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-btn" href="#">stats</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid link">
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="../assets/images/logo.png"
+                        alt="Logo IAEvents"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark-mod" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <p class="offcanvas-title nav__titulo" id="offcanvasDarkNavbarLabel"><img class="nav-logo"
+                                src="../assets/images/logo.png" alt="Logo IAEvents"></p>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page" href="./upcoming_events.html">Upcoming Events</a>
+                            </li>
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page" href="./past_events.html">Past Events</a>
+                            </li>
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page" href="./contact.html">contact</a>
+                            </li>
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page" href="#">stats</a>
+                            </li>
+                            <li class="nav-item .nav-btn">
+                                <a class="nav-link active nav-btn" aria-current="page"href="./event.html">event</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <div class="hero bg-light row text-center align-content-center">
             <div class="col-1 hero-text-arrow">
-                <p><a href="./contact.html"><</a></p>
+                <p>
+                    <a href="./contact.html"><</a>
+                </p>
             </div>
             <div class="col-10 text-center">
                 <p>Stats</p>
             </div>
             <div class="col-1 hero-text-arrow">
-                <p><a href="#" class=".disabled-link">></a></p>
+                <p>
+                    <a href="#" class=".disabled-link">></a>
+                </p>
             </div>
+        </div>
+    
+        <div class="stats-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <th colspan="3">Events statistics</th>
+                    </tr>
+                    <tr>
+                        <td>Events width the highest percentage of attendace</td>
+                        <td>Events width the lowest percentage of attendace</td>
+                        <td>Events width larger capacity</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Upcoming events statistics by category</th>
+                    </tr>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Porcentage of attendace</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Past Events statistics by category</th>
+                    </tr>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Porcentage of attendace</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
 
